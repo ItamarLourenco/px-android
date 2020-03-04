@@ -1,6 +1,6 @@
 package com.mercadopago.android.testlib;
 
-import android.support.test.espresso.IdlingRegistry;
+import androidx.test.espresso.IdlingRegistry;
 import com.mercadopago.android.testlib.espresso.OkHttp3IdlingResource;
 import okhttp3.OkHttpClient;
 import org.junit.rules.TestRule;

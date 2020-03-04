@@ -2,7 +2,7 @@ package com.mercadopago.android.px.core;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.internal.di.Session;
 import com.mercadopago.android.px.internal.util.ApiUtil;
 import com.mercadopago.android.px.model.exceptions.ApiException;

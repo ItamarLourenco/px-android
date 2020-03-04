@@ -1,8 +1,8 @@
 package com.mercadopago.android.px.internal.util;
 
 import android.os.Parcel;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Map;

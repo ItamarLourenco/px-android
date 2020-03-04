@@ -1,15 +1,14 @@
 package com.mercadopago.android.px.internal.viewmodel.drawables;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.internal.repository.ChargeRepository;
 import com.mercadopago.android.px.internal.repository.DisabledPaymentMethodRepository;
 import com.mercadopago.android.px.internal.viewmodel.CardDrawerConfiguration;
 import com.mercadopago.android.px.internal.viewmodel.DisableConfiguration;
 import com.mercadopago.android.px.internal.viewmodel.mappers.NonNullMapper;
 import com.mercadopago.android.px.model.ExpressMetadata;
-import com.mercadopago.android.px.model.PaymentTypes;
 import com.mercadopago.android.px.model.commission.PaymentTypeChargeRule;
 
 public class PaymentMethodDrawableItemMapper extends NonNullMapper<ExpressMetadata, DrawableFragmentItem> {

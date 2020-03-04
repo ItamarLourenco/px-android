@@ -3,8 +3,8 @@ package com.mercadopago.android.px.addons.internal;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import com.mercadopago.android.px.addons.SecurityBehaviour;
 import com.mercadopago.android.px.addons.model.SecurityValidationData;
 

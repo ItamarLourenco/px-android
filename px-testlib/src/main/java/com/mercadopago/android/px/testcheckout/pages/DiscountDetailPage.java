@@ -3,7 +3,7 @@ package com.mercadopago.android.px.testcheckout.pages;
 import com.mercadopago.android.px.testcheckout.assertions.CheckoutValidator;
 import com.mercadopago.android.testlib.pages.PageObject;
 
-import static android.support.test.espresso.Espresso.pressBack;
+import static androidx.test.espresso.Espresso.pressBack;
 
 public class DiscountDetailPage extends PageObject<CheckoutValidator> {
 

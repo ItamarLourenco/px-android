@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.internal.features.express.slider;
 
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.view.View;

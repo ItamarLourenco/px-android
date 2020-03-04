@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.tracking.internal.events;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.internal.repository.PaymentSettingRepository;
 import com.mercadopago.android.px.tracking.internal.model.InitData;
 import java.util.Map;

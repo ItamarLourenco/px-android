@@ -2,7 +2,7 @@ package com.mercadopago.android.px.internal.util;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.squareup.picasso.Picasso;
 
 public final class PicassoLoader {

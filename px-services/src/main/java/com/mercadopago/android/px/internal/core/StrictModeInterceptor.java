@@ -2,10 +2,9 @@ package com.mercadopago.android.px.internal.core;
 
 import android.content.Context;
 import android.net.TrafficStats;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import java.io.IOException;
 import okhttp3.Interceptor;
-import okhttp3.Request;
 import okhttp3.Response;
 
 public final class StrictModeInterceptor implements Interceptor {

@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.model.exceptions;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.internal.util.ApiUtil;
 import com.mercadopago.android.px.internal.util.TextUtil;
 import com.mercadopago.android.px.model.Cause;

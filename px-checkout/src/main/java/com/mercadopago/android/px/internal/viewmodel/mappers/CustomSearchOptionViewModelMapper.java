@@ -1,8 +1,8 @@
 package com.mercadopago.android.px.internal.viewmodel.mappers;
 
 import android.content.Context;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
 import android.widget.ImageView;
 import com.mercadopago.android.px.R;
 import com.mercadopago.android.px.internal.features.payment_vault.SearchItemOnClickListenerHandler;

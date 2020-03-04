@@ -1,8 +1,8 @@
 package com.mercadopago.android.px.internal.viewmodel.mappers;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.util.Pair;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.util.Pair;
 import com.mercadopago.android.px.internal.repository.AmountRepository;
 import com.mercadopago.android.px.internal.repository.ChargeRepository;
 import com.mercadopago.android.px.internal.repository.DiscountRepository;
@@ -13,13 +13,12 @@ import com.mercadopago.android.px.internal.view.SummaryView;
 import com.mercadopago.android.px.internal.viewmodel.AmountLocalized;
 import com.mercadopago.android.px.internal.viewmodel.SummaryViewDefaultColor;
 import com.mercadopago.android.px.internal.viewmodel.TotalLocalized;
-import com.mercadopago.android.px.model.CardMetadata;
 import com.mercadopago.android.px.model.Currency;
 import com.mercadopago.android.px.model.DiscountConfigurationModel;
 import com.mercadopago.android.px.model.commission.PaymentTypeChargeRule;
 import com.mercadopago.android.px.model.internal.ExpressPaymentMethod;
 import com.mercadopago.android.px.model.internal.SummaryInfo;
-import java.util.Collection;
+
 import java.util.List;
 
 public class SummaryViewModelMapper extends CacheableMapper<ExpressPaymentMethod, SummaryView.Model,

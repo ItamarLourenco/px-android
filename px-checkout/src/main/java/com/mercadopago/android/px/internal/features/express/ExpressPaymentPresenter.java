@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.internal.features.express;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.addons.ESCManagerBehaviour;
 import com.mercadopago.android.px.addons.model.SecurityValidationData;
 import com.mercadopago.android.px.configuration.DynamicDialogConfiguration;

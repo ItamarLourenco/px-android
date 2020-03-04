@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.tracking.internal.views;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.model.Issuer;
 import com.mercadopago.android.px.model.PaymentMethod;
 import com.mercadopago.android.px.tracking.internal.mapper.FromPaymentMethodToAvailableMethods;

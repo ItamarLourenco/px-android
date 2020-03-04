@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.internal.features.business_result;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadolibre.android.mlbusinesscomponents.common.MLBusinessSingleItem;
 import com.mercadolibre.android.mlbusinesscomponents.components.common.downloadapp.MLBusinessDownloadAppData;
 import com.mercadolibre.android.mlbusinesscomponents.components.common.downloadapp.MLBusinessDownloadAppView;

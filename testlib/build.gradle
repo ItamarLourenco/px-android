@@ -14,12 +14,12 @@ spoon {
 
 dependencies {
     api "junit:junit:$junit"
-    api "com.android.support.test:runner:$android_runner"
-    api "com.android.support.test:rules:$android_runner"
+    api 'androidx.test.ext:junit:1.1.1'
+    api 'androidx.test:rules:1.1.1'
     api "com.squareup.spoon:spoon-client:$spoon_client"
-    api "com.android.support.test.espresso:espresso-core:$espresso"
-    api "com.android.support.test.espresso:espresso-contrib:$espresso"
-    api "com.android.support.test.espresso:espresso-intents:$espresso"
+    api 'androidx.test.espresso:espresso-core:3.1.0'
+    api 'androidx.test.espresso:espresso-contrib:3.1.0'
+    api 'androidx.test.espresso:espresso-intents:3.1.0'
     api "com.squareup.okhttp3:okhttp:$okhttp"
-    api "com.android.support.test.espresso:espresso-idling-resource:$espresso"
+    api 'androidx.test.espresso:espresso-idling-resource:3.1.0'
 }

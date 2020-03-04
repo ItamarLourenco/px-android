@@ -1,9 +1,9 @@
 package com.mercadopago.android.testlib.espresso;
 
 import android.app.Activity;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
-import android.support.test.runner.lifecycle.Stage;
+import androidx.test.platform.app.InstrumentationRegistry;
+import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
+import androidx.test.runner.lifecycle.Stage;
 import java.util.Collection;
 
 public final class CurrentActivityFetcher {

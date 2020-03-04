@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.tracking.internal.views;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.internal.util.JsonUtil;
 import com.mercadopago.android.px.model.DiscountConfigurationModel;
 import com.mercadopago.android.px.preferences.CheckoutPreference;

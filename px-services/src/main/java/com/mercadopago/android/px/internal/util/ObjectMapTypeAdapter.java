@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.internal.util;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;

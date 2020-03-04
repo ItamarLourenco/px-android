@@ -1,17 +1,17 @@
 package com.mercadopago.android.px.testcheckout.pages;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
-import android.support.test.InstrumentationRegistry;
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
+import androidx.test.platform.app.InstrumentationRegistry;
 import com.mercadopago.android.px.testcheckout.assertions.CheckoutValidator;
 import com.mercadopago.android.testlib.pages.PageObject;
 import org.hamcrest.Matchers;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static com.mercadopago.android.testlib.matchers.UtilityMatchers.withBackgroundColor;
 
 public class CongratsPage extends PageObject<CheckoutValidator> {

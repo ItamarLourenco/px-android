@@ -2,8 +2,8 @@ package com.mercadopago.android.px.model.internal;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.model.IPayment;
 import com.mercadopago.android.px.model.IPaymentDescriptor;
 import com.mercadopago.android.px.model.IPaymentDescriptorHandler;

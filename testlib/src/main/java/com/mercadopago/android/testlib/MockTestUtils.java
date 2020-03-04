@@ -1,6 +1,6 @@
 package com.mercadopago.android.testlib;
 
-import android.support.test.InstrumentationRegistry;
+import androidx.test.platform.app.InstrumentationRegistry;
 import java.io.InputStream;
 
 public final class MockTestUtils {

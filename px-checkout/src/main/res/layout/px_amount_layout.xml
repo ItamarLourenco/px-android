@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:clickable="true"
     android:focusable="true"
-    tools:parentTag="android.support.v7.widget.LinearLayoutCompat">
+    tools:parentTag="androidx.appcompat.widget.LinearLayoutCompat">
 
     <View
         android:id="@+id/line"

@@ -2,9 +2,9 @@ package com.mercadopago.android.px.core;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import com.mercadopago.android.px.model.BusinessPayment;
 import com.mercadopago.android.px.model.GenericPayment;
 import com.mercadopago.android.px.model.Payment;
@@ -87,7 +87,7 @@ public interface PaymentProcessor extends Serializable {
      * Fragment that will appear if {@link #shouldShowFragmentOnPayment()} is true when user clicks this payment
      * method.
      * <p>
-     * inside {@link android.support.v4.app.Fragment#onAttach(Context)} context will be an instance of {@link
+     * inside {@link Fragment#onAttach(Context)} context will be an instance of {@link
      * OnPaymentListener}
      *
      * @param data checkout data to the moment it's called.

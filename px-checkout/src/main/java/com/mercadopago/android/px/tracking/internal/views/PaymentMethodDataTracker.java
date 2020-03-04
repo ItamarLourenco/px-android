@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.tracking.internal.views;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.model.PaymentMethod;
 import com.mercadopago.android.px.tracking.internal.model.PaymentMethodData;
 import java.util.Map;

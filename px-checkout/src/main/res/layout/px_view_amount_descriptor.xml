@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:gravity="center_vertical"
     tools:background="@color/px_colorPrimary"
-    tools:parentTag="android.support.constraint.ConstraintLayout">
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
     <LinearLayout
         android:id="@+id/title"

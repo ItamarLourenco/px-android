@@ -1,12 +1,11 @@
 package com.mercadopago.android.px.internal.datasource;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.addons.ESCManagerBehaviour;
 import com.mercadopago.android.px.internal.callbacks.MPCall;
 import com.mercadopago.android.px.internal.repository.CardTokenRepository;
 import com.mercadopago.android.px.internal.repository.PaymentSettingRepository;
 import com.mercadopago.android.px.internal.services.GatewayService;
-import com.mercadopago.android.px.internal.util.EscUtil;
 import com.mercadopago.android.px.model.CardInfo;
 import com.mercadopago.android.px.model.CardToken;
 import com.mercadopago.android.px.model.Device;

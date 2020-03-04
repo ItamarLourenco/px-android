@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.internal.core;
 
 import android.content.SharedPreferences;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 public final class ProductIdProvider {
 

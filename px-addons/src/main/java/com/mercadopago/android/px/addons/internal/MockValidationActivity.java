@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.addons.internal;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MockValidationActivity extends AppCompatActivity {
 

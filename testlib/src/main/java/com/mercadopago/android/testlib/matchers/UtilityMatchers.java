@@ -3,18 +3,18 @@ package com.mercadopago.android.testlib.matchers;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.ColorInt;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.ColorInt;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
 
-import static android.support.test.espresso.core.internal.deps.guava.base.Preconditions.checkArgument;
-import static android.support.test.espresso.matcher.ViewMatchers.isAssignableFrom;
-import static android.support.test.espresso.matcher.ViewMatchers.isDescendantOfA;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.espresso.core.internal.deps.guava.base.Preconditions.checkArgument;
+import static androidx.test.espresso.matcher.ViewMatchers.isAssignableFrom;
+import static androidx.test.espresso.matcher.ViewMatchers.isDescendantOfA;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.core.AllOf.allOf;
 
 /**

@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.internal.features.business_result;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.mercadolibre.android.mlbusinesscomponents.components.common.downloadapp.MLBusinessDownloadAppData;
 import com.mercadolibre.android.mlbusinesscomponents.components.crossselling.MLBusinessCrossSellingBoxData;
 import com.mercadolibre.android.mlbusinesscomponents.components.discount.MLBusinessDiscountBoxData;

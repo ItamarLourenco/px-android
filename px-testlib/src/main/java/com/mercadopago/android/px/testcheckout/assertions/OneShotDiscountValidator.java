@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.testcheckout.assertions;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 import com.mercadopago.android.px.R;
 import com.mercadopago.android.px.internal.util.TextUtil;
@@ -9,11 +9,11 @@ import com.mercadopago.android.px.model.Discount;
 import com.mercadopago.android.px.testcheckout.pages.DiscountDetailPage;
 import org.hamcrest.Matcher;
 
-import static android.support.test.InstrumentationRegistry.getInstrumentation;
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 public class OneShotDiscountValidator extends DiscountValidator {
 

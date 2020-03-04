@@ -6,7 +6,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 dependencies {
-    implementation "com.android.support:appcompat-v7:$support_library_version"
+    implementation 'androidx.appcompat:appcompat:1.0.0'
     testImplementation "junit:junit:$junit"
     testImplementation "org.mockito:mockito-core:$mockito_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"

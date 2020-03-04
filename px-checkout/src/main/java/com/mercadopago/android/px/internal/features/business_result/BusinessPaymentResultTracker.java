@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.internal.features.business_result;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import com.mercadolibre.android.mlbusinesscomponents.components.discount.MLBusinessDiscountTracker;
 import com.mercadopago.android.px.internal.util.TextUtil;
 import com.mercadopago.android.px.tracking.internal.MPTracker;

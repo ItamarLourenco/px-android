@@ -1,19 +1,19 @@
 package com.mercadopago.android.px.testcheckout.pages;
 
-import android.support.annotation.NonNull;
-import android.support.test.espresso.action.ViewActions;
-import android.support.test.espresso.contrib.RecyclerViewActions;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.action.ViewActions;
+import androidx.test.espresso.contrib.RecyclerViewActions;
 import com.mercadopago.android.px.R;
 import com.mercadopago.android.px.model.PaymentMethods;
 import com.mercadopago.android.px.model.PaymentTypes;
 import com.mercadopago.android.px.testcheckout.assertions.CheckoutValidator;
 import com.mercadopago.android.testlib.pages.PageObject;
 
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.action.ViewActions.click;
-import static android.support.test.espresso.matcher.ViewMatchers.isRoot;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withTagValue;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.action.ViewActions.click;
+import static androidx.test.espresso.matcher.ViewMatchers.isRoot;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withTagValue;
 import static org.hamcrest.Matchers.is;
 
 public class PaymentMethodPage extends PageObject<CheckoutValidator> {

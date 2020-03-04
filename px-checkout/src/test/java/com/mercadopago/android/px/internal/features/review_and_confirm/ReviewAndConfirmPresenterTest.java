@@ -1,8 +1,7 @@
 package com.mercadopago.android.px.internal.features.review_and_confirm;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.addons.ESCManagerBehaviour;
-import com.mercadopago.android.px.addons.SecurityBehaviour;
 import com.mercadopago.android.px.configuration.AdvancedConfiguration;
 import com.mercadopago.android.px.configuration.CustomStringConfiguration;
 import com.mercadopago.android.px.configuration.DynamicDialogConfiguration;
@@ -24,7 +23,6 @@ import com.mercadopago.android.px.model.PaymentData;
 import com.mercadopago.android.px.model.PaymentMethod;
 import com.mercadopago.android.px.model.PaymentRecovery;
 import com.mercadopago.android.px.model.PaymentResult;
-import com.mercadopago.android.px.model.Sites;
 import com.mercadopago.android.px.model.exceptions.MercadoPagoError;
 import com.mercadopago.android.px.preferences.CheckoutPreference;
 import com.mercadopago.android.px.tracking.internal.model.Reason;

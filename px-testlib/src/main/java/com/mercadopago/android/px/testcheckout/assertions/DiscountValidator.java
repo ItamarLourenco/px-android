@@ -1,8 +1,8 @@
 package com.mercadopago.android.px.testcheckout.assertions;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.test.espresso.matcher.ViewMatchers;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.matcher.ViewMatchers;
 import android.view.View;
 import com.mercadopago.android.px.R;
 import com.mercadopago.android.px.internal.util.TextUtil;
@@ -14,13 +14,13 @@ import com.mercadopago.android.px.testcheckout.pages.PaymentMethodPage;
 import com.mercadopago.android.px.testcheckout.pages.ReviewAndConfirmPage;
 import org.hamcrest.Matcher;
 
-import static android.support.test.InstrumentationRegistry.getInstrumentation;
-import static android.support.test.espresso.Espresso.onView;
-import static android.support.test.espresso.assertion.ViewAssertions.matches;
-import static android.support.test.espresso.matcher.ViewMatchers.hasTextColor;
-import static android.support.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
-import static android.support.test.espresso.matcher.ViewMatchers.withId;
-import static android.support.test.espresso.matcher.ViewMatchers.withText;
+import static androidx.test.platform.app.InstrumentationRegistry.getInstrumentation;
+import static androidx.test.espresso.Espresso.onView;
+import static androidx.test.espresso.assertion.ViewAssertions.matches;
+import static androidx.test.espresso.matcher.ViewMatchers.hasTextColor;
+import static androidx.test.espresso.matcher.ViewMatchers.withEffectiveVisibility;
+import static androidx.test.espresso.matcher.ViewMatchers.withId;
+import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 public abstract class DiscountValidator extends DefaultValidator {
     @NonNull protected final Campaign campaign;

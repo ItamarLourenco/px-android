@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.internal.features.payment_result.viewmodel;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.internal.view.PaymentResultBody;
 import com.mercadopago.android.px.internal.view.PaymentResultHeader;
 

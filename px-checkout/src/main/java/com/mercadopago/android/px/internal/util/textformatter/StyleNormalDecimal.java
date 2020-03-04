@@ -1,11 +1,11 @@
 package com.mercadopago.android.px.internal.util.textformatter;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
 import android.text.Spannable;
 import android.text.SpannableString;
-import com.mercadopago.android.px.R;
+
 import com.mercadopago.android.px.internal.util.TextUtil;
 
 class StyleNormalDecimal extends Style {

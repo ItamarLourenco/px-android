@@ -1,10 +1,10 @@
 package com.mercadopago.android.testlib.idlingresource;
 
 import android.app.Activity;
-import android.support.annotation.NonNull;
-import android.support.test.espresso.IdlingResource;
-import android.support.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
-import android.support.test.runner.lifecycle.Stage;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.IdlingResource;
+import androidx.test.runner.lifecycle.ActivityLifecycleMonitorRegistry;
+import androidx.test.runner.lifecycle.Stage;
 import java.util.Collection;
 import java.util.Iterator;
 

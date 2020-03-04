@@ -1,8 +1,8 @@
 package com.mercadopago;
 
 import android.os.Bundle;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.textfield.TextInputEditText;
+import androidx.appcompat.app.AppCompatActivity;
 import com.mercadopago.android.px.core.MercadoPagoCheckout;
 import com.mercadopago.example.R;
 

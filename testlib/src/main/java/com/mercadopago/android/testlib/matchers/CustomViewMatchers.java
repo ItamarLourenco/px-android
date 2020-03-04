@@ -1,6 +1,6 @@
 package com.mercadopago.android.testlib.matchers;
 
-import android.support.annotation.IdRes;
+import androidx.annotation.IdRes;
 import android.view.View;
 import android.widget.TextView;
 import org.hamcrest.Description;

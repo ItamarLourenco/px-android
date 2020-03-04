@@ -6,9 +6,9 @@ import android.graphics.BitmapFactory;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
+
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import android.text.SpannableStringBuilder;
 import android.view.LayoutInflater;
 import android.view.View;

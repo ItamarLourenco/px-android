@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.internal.features.express.add_new_card;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.addons.model.SecurityValidationData;
 import com.mercadopago.android.px.internal.base.MvpView;
 import com.mercadopago.android.px.internal.callbacks.PaymentServiceHandler;

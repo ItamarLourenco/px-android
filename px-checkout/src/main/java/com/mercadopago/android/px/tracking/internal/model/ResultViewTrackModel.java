@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.tracking.internal.model;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.configuration.PaymentResultScreenConfiguration;
 import com.mercadopago.android.px.internal.util.PaymentDataHelper;
 import com.mercadopago.android.px.internal.util.TextUtil;
@@ -14,7 +14,6 @@ import com.mercadopago.android.px.model.internal.PaymentReward;
 import com.mercadopago.android.px.preferences.CheckoutPreference;
 import com.mercadopago.android.px.tracking.internal.mapper.FromDiscountItemToItemId;
 import java.math.BigDecimal;
-import java.util.Map;
 
 public final class ResultViewTrackModel extends TrackingMapModel {
 

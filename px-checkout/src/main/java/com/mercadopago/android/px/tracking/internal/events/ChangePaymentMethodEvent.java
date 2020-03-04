@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.tracking.internal.events;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.tracking.internal.views.ViewTracker;
 
 public final class ChangePaymentMethodEvent extends EventTracker {

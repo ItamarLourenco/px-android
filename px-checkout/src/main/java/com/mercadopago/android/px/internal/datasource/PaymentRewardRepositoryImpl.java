@@ -1,13 +1,12 @@
 package com.mercadopago.android.px.internal.datasource;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.internal.datasource.cache.Cache;
 import com.mercadopago.android.px.internal.repository.PaymentRewardRepository;
 import com.mercadopago.android.px.internal.services.PaymentRewardService;
 import com.mercadopago.android.px.internal.util.StatusHelper;
 import com.mercadopago.android.px.internal.util.TextUtil;
-import com.mercadopago.android.px.model.BusinessPayment;
 import com.mercadopago.android.px.model.Campaign;
 import com.mercadopago.android.px.model.IPaymentDescriptor;
 import com.mercadopago.android.px.model.PaymentResult;

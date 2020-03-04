@@ -1,8 +1,8 @@
 package com.mercadopago.android.testlib.matchers;
 
 import android.content.res.Resources;
-import android.support.annotation.IdRes;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.IdRes;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;

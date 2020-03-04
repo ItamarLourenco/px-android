@@ -1,8 +1,8 @@
 package com.mercadopago.android.testlib.espresso;
 
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.test.espresso.IdlingResource;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import androidx.test.espresso.IdlingResource;
 import okhttp3.Dispatcher;
 import okhttp3.OkHttpClient;
 

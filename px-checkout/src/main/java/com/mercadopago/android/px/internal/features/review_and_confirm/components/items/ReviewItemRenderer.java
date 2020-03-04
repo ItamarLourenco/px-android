@@ -1,9 +1,9 @@
 package com.mercadopago.android.px.internal.features.review_and_confirm.components.items;
 
 import android.content.Context;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +17,7 @@ import com.mercadopago.android.px.internal.util.ScaleUtil;
 import com.mercadopago.android.px.internal.util.TextUtil;
 import com.mercadopago.android.px.internal.view.MPTextView;
 import com.mercadopago.android.px.internal.view.Renderer;
-import com.squareup.picasso.Picasso;
+
 import java.util.Locale;
 
 public class ReviewItemRenderer extends Renderer<ReviewItem> {

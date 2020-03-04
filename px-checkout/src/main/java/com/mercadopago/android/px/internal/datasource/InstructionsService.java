@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.internal.datasource;
 
-import android.support.annotation.NonNull;
-import android.support.v4.util.LongSparseArray;
+import androidx.annotation.NonNull;
+import androidx.collection.LongSparseArray;
 import com.mercadopago.android.px.internal.adapters.MPCallWrapper;
 import com.mercadopago.android.px.internal.callbacks.MPCall;
 import com.mercadopago.android.px.internal.repository.InstructionsRepository;

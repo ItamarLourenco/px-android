@@ -8,7 +8,7 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.PorterDuff;
 import android.os.Build;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateDecelerateInterpolator;

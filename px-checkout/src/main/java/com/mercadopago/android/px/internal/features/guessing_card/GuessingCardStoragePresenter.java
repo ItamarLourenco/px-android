@@ -1,8 +1,8 @@
 package com.mercadopago.android.px.internal.features.guessing_card;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.addons.ESCManagerBehaviour;
 import com.mercadopago.android.px.core.internal.MercadoPagoCardStorage;
 import com.mercadopago.android.px.internal.callbacks.TaggedCallback;
@@ -12,7 +12,6 @@ import com.mercadopago.android.px.internal.datasource.CardAssociationService;
 import com.mercadopago.android.px.internal.repository.CardPaymentMethodRepository;
 import com.mercadopago.android.px.internal.repository.IdentificationRepository;
 import com.mercadopago.android.px.internal.util.ApiUtil;
-import com.mercadopago.android.px.model.BankDeal;
 import com.mercadopago.android.px.model.Card;
 import com.mercadopago.android.px.model.CardInfo;
 import com.mercadopago.android.px.model.IdentificationType;

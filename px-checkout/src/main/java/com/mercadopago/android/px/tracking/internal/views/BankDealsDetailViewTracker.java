@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.tracking.internal.views;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 public class BankDealsDetailViewTracker extends ViewTracker {
 

@@ -1,12 +1,11 @@
 package com.mercadopago.android.px.tracking.internal.model;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.mercadopago.android.px.configuration.AdvancedConfiguration;
 import com.mercadopago.android.px.configuration.PaymentConfiguration;
 import com.mercadopago.android.px.internal.repository.PaymentSettingRepository;
 import com.mercadopago.android.px.preferences.CheckoutPreference;
-import java.util.Map;
 
 @SuppressWarnings("unused")
 public final class InitData extends TrackingMapModel {

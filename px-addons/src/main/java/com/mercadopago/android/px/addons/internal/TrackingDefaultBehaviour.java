@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.addons.internal;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import com.mercadopago.android.px.addons.TrackingBehaviour;
 import java.util.Map;
 

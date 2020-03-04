@@ -1,6 +1,6 @@
 package com.mercadopago.android.px.testcheckout.idleresources;
 
-import android.support.test.espresso.IdlingRegistry;
+import androidx.test.espresso.IdlingRegistry;
 import com.mercadopago.android.px.internal.features.payment_result.PaymentResultActivity;
 import com.mercadopago.android.testlib.idlingresource.ActivityIdlingResource;
 

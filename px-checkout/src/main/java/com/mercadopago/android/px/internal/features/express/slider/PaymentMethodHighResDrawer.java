@@ -1,7 +1,7 @@
 package com.mercadopago.android.px.internal.features.express.slider;
 
-import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
 import com.mercadopago.android.px.internal.features.express.add_new_card.OtherPaymentMethodFragment;
 import com.mercadopago.android.px.internal.viewmodel.drawables.AccountMoneyDrawableFragmentItem;
 import com.mercadopago.android.px.internal.viewmodel.drawables.OtherPaymentMethodFragmentItem;

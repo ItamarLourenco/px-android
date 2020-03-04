@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.os.Build;
 import android.os.LocaleList;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 public final class LocaleUtil {
 
